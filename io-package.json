@@ -1,8 +1,20 @@
 {
     "common": {
         "name": "unifi",
-        "version": "0.5.5",
+        "version": "0.5.6",
         "news": {
+            "0.5.6": {
+                "en": "* (braindead1) Fixed some errors reported via Sentry",
+                "de": "* (braindead1) Einige über Sentry gemeldete Fehler wurden behoben",
+                "ru": "* (braindead1) Исправлены некоторые ошибки, сообщаемые через Sentry",
+                "pt": "* (braindead1) Corrigidos alguns erros relatados via Sentry",
+                "nl": "* (braindead1) Enkele fouten opgelost die via Sentry zijn gemeld",
+                "fr": "* (braindead1) Correction de certaines erreurs signalées via Sentry",
+                "it": "* (braindead1) Risolti alcuni errori segnalati tramite Sentry",
+                "es": "* (braindead1) Se corrigieron algunos errores informados a través de Sentry",
+                "pl": "* (braindead1) Naprawiono niektóre błędy zgłaszane przez Sentry",
+                "zh-cn": "*（braindead1）修复了通过哨兵报告的一些错误"
+            },
             "0.5.5": {
                 "en": "* (braindead1) Fixed some errors reported via Sentry",
                 "de": "* (braindead1) Einige über Sentry gemeldete Fehler wurden behoben",
@@ -248,7 +260,7 @@
             "_id": "info.UpdateData",
             "type": "state",
             "common": {
-                "name": "UpdateData",
+                "name": "Manually trigger an update",
                 "type": "boolean",
                 "role": "button",
                 "read": false,
