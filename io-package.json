@@ -243,6 +243,19 @@
                 "def": false
             },
             "native": {}
+        },
+        {
+            "_id": "info.UpdateData",
+            "type": "state",
+            "common": {
+                "name": "UpdateData",
+                "type": "boolean",
+                "role": "button",
+                "read": false,
+                "write": true,
+                "def": false
+              },
+            "native": {}
         }
     ]
 }

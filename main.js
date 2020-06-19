@@ -117,6 +117,8 @@ class Unifi extends utils.Adapter {
                 this.updateWlanStatus(site, id, state);
             } else if (idParts[3] === 'vouchers' && idParts[4] === 'create_vouchers') {
                 this.createUnifiVouchers(site);
+            } else if (idParts[2] === 'info' && idParts[3] === 'UpdateData') {                
+                this.updateUnifiData();
             }
         }
     }
